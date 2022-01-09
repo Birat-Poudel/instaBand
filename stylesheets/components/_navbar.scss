@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    background-color: $primary-color;
+    padding: 0.75rem 4.5rem;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .logo-container{
+            display: flex;
+            .logo{
+                width: 100%;
+                background-size: cover;
+                height: 7rem;
+            }
+    
+            .logo-text{
+                font-family: "perspective_sansregular", sans-serif;
+                font-size: $callout-font-size;
+                color: $logotext-color;
+                letter-spacing: $letter-spacing;
+                margin-top: 1rem;
+            }
+        }
+    
+        ul{
+            display: flex;
+            align-items: center;
+            li{
+                margin-right: 5rem;
+                justify-self: flex-end;
+    
+                &:last-child{
+                    margin-right: 0;
+                }
+    
+                a{
+                    color: $fontcolor-blackscreen;
+                    font-size: $nav-font-size;
+                    letter-spacing: $letter-spacing;
+                }
+            }
+        }
+    }
+}
+

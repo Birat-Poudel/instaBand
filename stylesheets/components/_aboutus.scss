@@ -1,0 +1,30 @@
+.aboutus{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8rem 4.5rem;
+    width: 100%;
+
+    .ab-image{
+        width: 40%;
+        object-fit: cover;
+        height: auto;
+    }
+
+    .ab-text{
+        .ab-header{
+            font-size: $title-font-size;
+            color: $accent-color;
+            margin-bottom: 5rem;
+        }
+
+        .ab-body{
+            font-size: $body-font-size;
+            color: $fontcolor-whitescreen;
+            width: 38ch;
+            letter-spacing: 0.125rem;
+            line-height: 1.6;
+        }
+
+    }
+}
